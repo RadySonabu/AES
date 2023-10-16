@@ -170,38 +170,46 @@ def decrypt():
 
     new_value = add_round_key(ROUND_KEYS['9'], cypher_text) 
     original_value = mix_column(new_value)
+    # cypher_text = get_cyphertext(original_value)
 
-    print(original_value)
     
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['8'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['8'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['7'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['7'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['6'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['6'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['5'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['5'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['4'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['4'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['3'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['3'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['2'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['2'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['1'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['1'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # cypher_text = get_cyphertext(original_value)
-    # original_value = add_round_key(ROUND_KEYS['0'], cypher_text)
+    original_value = add_round_key(ROUND_KEYS['0'], cypher_text)
+    original_value = mix_column(original_value)
+    cypher_text = get_cyphertext(original_value)
 
-    # print(cypher_text)
-    # print(original_value)
+    print(cypher_text)
 
 
 
